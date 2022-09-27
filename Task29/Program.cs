@@ -5,7 +5,7 @@
 
 Console.Clear();
 int[] array = GetArray(8);
-Console.WriteLine($"[{String.Join("; ", array)}]");
+Console.WriteLine($"[{String.Join("; ", array)}]"); //разделитель элементов - символ ";" и символ " " (пробел)
 
 int [] GetArray(int size)
 {
